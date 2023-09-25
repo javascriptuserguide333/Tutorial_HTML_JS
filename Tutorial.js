@@ -1,4 +1,5 @@
-/*1.- Crea una función que tome dos números y devuelva cual es el menor. Muestra por pantalla una frase indicando cual es el menor de los números y mostrando el valor del mismo*/
+/*1.- Crea una función que tome dos números y devuelva cual es el menor. Muestra por pantalla una frase indicando cual es el menor 
+/ de los números y mostrando el valor del mismo*/
 <script type="text/javascript">
 
         let numeros ={
@@ -17,7 +18,9 @@
 
 </script>
 
-/*2.-Escribe una función que tome una cadena de texto como parámetro y compruebe si la cadena es mayor o igual que 20 dígitos devolverá 'Es un texto largo', si la cadena es menor o igual que 18 dígitos devolverá 'Es un texto corto' y si la cadena es igual a a 19 dígitos devolverá 'Es una cadena mediana'.*/
+/*2.-Escribe una función que tome una cadena de texto como parámetro y compruebe si la cadena es mayor o igual que 20 dígitos devolverá 
+/ 'Es un texto largo', si la cadena es menor o igual que 18 dígitos devolverá 'Es un texto corto' y si la cadena es igual a a 19 dígitos 
+/ devolverá 'Es una cadena mediana'.*/
 <script type="text/javascript">       
 
         function comprobarCadena(texto){
@@ -36,7 +39,8 @@
 
 </script>
 
-/*3.-Crea un script que pida tres números al usuario y los almace cada uno en su variable y contenga una función para calcular la media de los números introducidos.
+/*3.-Crea un script que pida tres números al usuario y los almace cada uno en su variable y contenga una función para calcular 
+/ la media de los números introducidos.
 Dos cosas nuevas:
         -Para recoger datos de un usuario necesitamos utilizar el comando prompt.
         -Para cambiar cualquier string a number necesitamos utilizar parseFloat.
@@ -54,7 +58,8 @@ Os dejo cómo se escribe una sentencia para pedir datos al usuario, almacenarlos
 
 </script>
 
-/*4.-Crea un script en el que pidas al usuario su nombre, su primer apellido y su segundo apellido. Concatena los tres en una variable y muéstralos por pantalla.*/
+/*4.-Crea un script en el que pidas al usuario su nombre, su primer apellido y su segundo apellido. Concatena los tres en una 
+/ variable y muéstralos por pantalla.*/
 <script type="text/javascript">
 
         let nombre = (prompt('Introduce tu nombre: '));
@@ -65,7 +70,8 @@ Os dejo cómo se escribe una sentencia para pedir datos al usuario, almacenarlos
 
     </script>
 
-/*5.-Crea un script que pidas al usuario su edad y compruebes si es mayor o menor de edad. Devuelve por pantalla si es mayor de edad o si es menor de edad.*/
+/*5.-Crea un script que pidas al usuario su edad y compruebes si es mayor o menor de edad. Devuelve por pantalla si es mayor de 
+/ edad o si es menor de edad.*/
         //REHACER PEDIR EDAD AL USUARIO
 <script type="text/javascript">
 
@@ -84,7 +90,9 @@ Os dejo cómo se escribe una sentencia para pedir datos al usuario, almacenarlos
 </script>
 
 /*6.-Crea un script que realice operaciones matemáticas simples utilizando funciones.
-Deben de realizar sumas, restas, multiplicaciones y divisiones. Sigue estos pasos: Crea cuatro funciones diferentes, una para cada operación matemática: suma, resta, multiplicación y división. Cada función debe tomar dos parámetros y realizar la operación correspondiente. Muestra los resultados por pantalla*/
+/ Deben de realizar sumas, restas, multiplicaciones y divisiones. Sigue estos pasos: Crea cuatro funciones diferentes, 
+/ una para cada operación matemática: suma, resta, multiplicación y división. Cada función debe tomar dos parámetros y 
+/ realizar la operación correspondiente. Muestra los resultados por pantalla*/
 <script type="text/javascript">
 
         let operacionesS = {
@@ -113,7 +121,8 @@ Deben de realizar sumas, restas, multiplicaciones y divisiones. Sigue estos paso
 
 </script>
 
-/*7.- Crea un script que calcule el precio después de aplicar un descuento a un producto utilizando funciones anónimas. Para ello necesitarás una función que tome dos números números como parámetros en la que calcularás el precio con el descuento.
+/*7.- Crea un script que calcule el precio después de aplicar un descuento a un producto utilizando funciones anónimas. 
+/ Para ello necesitarás una función que tome dos números números como parámetros en la que calcularás el precio con el descuento.
 Muestra por pantalla el precio con descuento de un producto*/
 <script type="text/javascript">
 
@@ -127,7 +136,8 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*8.- Crea un split que calcule el cuadrado de un número utilizando la función flecha que tome un número como parámetro y calcula el cuadro en la función. Muestra por pantalla el cuadrado del número que indiques*/
+/*8.- Crea un split que calcule el cuadrado de un número utilizando la función flecha que tome un número como parámetro 
+/ y calcula el cuadro en la función. Muestra por pantalla el cuadrado del número que indiques*/
 <script type="text/javascript">
 
         let cuadrado = (a) => a ** 2;
@@ -136,7 +146,8 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*9.- Crea un split que comprobar si un alumno puede obtener o no el carnet de conducir . El usuario debe responder a las siguiente preguntas: ¿El alumno/a ha aprobado el examen teórico? , Introduce la edad del alumno/a, ¿Cuántas practicas ha realizado el alumno/a?, ¿El alumno/a aprobado el examen práctico?, Si todas estas condiciones se cumplen la función escribirá por pantalla '¡Enhorabuena!Has conseguido el carnet de conducir', si no se cumplen 'Lo siento, no cumples con los requisitos mínimos para obtener el carnet de conducir' */
+/*9.- Crea un split que comprobar si un alumno puede obtener o no el carnet de conducir . El usuario debe responder a las 
+/ siguiente preguntas: ¿El alumno/a ha aprobado el examen teórico? , Introduce la edad del alumno/a, ¿Cuántas practicas ha realizado el alumno/a?, ¿El alumno/a aprobado el examen práctico?, Si todas estas condiciones se cumplen la función escribirá por pantalla '¡Enhorabuena!Has conseguido el carnet de conducir', si no se cumplen 'Lo siento, no cumples con los requisitos mínimos para obtener el carnet de conducir' */
 <script type="text/javascript">
 
         let pregunta1 = prompt('¿El alumno/a ha aprobado el examen teórico?');
@@ -156,7 +167,8 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*10.- Escribr un script que pida el nombre del usuario y compruebe que el usuario ha introducido un nombre, si lo ha introducido debe mostrar por pantalla 'No ha introducido ningún nombre de usuario'. Utiliza condicionales para realizar este ejercicio*/
+/*10.- Escribr un script que pida el nombre del usuario y compruebe que el usuario ha introducido un nombre, si lo ha introducido 
+/ debe mostrar por pantalla 'No ha introducido ningún nombre de usuario'. Utiliza condicionales para realizar este ejercicio*/
 <script type="text/javascript">
 
         let usuario = prompt('Introduce tu nombre');
@@ -173,7 +185,9 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*11.- Escribe un script que pida un número al usuario y compruebe si es divisible por 2,3,5 y 7, si es divisible por uno  de los cuatro números devolverá '¡Enhorabuena! Has encontrado un número divisible por 2,3,5 o 7' si no es divisible por ninguno de estos devolverá '¡Lo siento! Este número no es divisible por 2,3,5 ni 7'. Utiliza condicionales para realizarlo.*/
+/*11.- Escribe un script que pida un número al usuario y compruebe si es divisible por 2,3,5 y 7, si es divisible por uno  de 
+/ los cuatro números devolverá '¡Enhorabuena! Has encontrado un número divisible por 2,3,5 o 7' si no es divisible por ninguno de estos 
+/ devolverá '¡Lo siento! Este número no es divisible por 2,3,5 ni 7'. Utiliza condicionales para realizarlo.*/
 <script type="text/javascript">
 
         let numeroUsu = parseFloat(prompt('Introduce un número que pueda ser divisible por 2,3,5 o 	7'));
@@ -190,7 +204,8 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*12.- Crea un script en el que determines si un alumno a aprobado o suspendido. Para aprobar el alumno necesitará tener una nota superior a 75 y los trabajos entregados. Utiliza condicionales.*/
+/*12.- Crea un script en el que determines si un alumno a aprobado o suspendido. Para aprobar el alumno necesitará tener una nota 
+/ superior a 75 y los trabajos entregados. Utiliza condicionales.*/
 <script type="text/javascript">
         function notaAlumno(nota, trabajos){
             if(nota >=75 && trabajos == true){
@@ -205,7 +220,8 @@ Muestra por pantalla el precio con descuento de un producto*/
 
 </script>
 
-/*13.- Crea un script que determine el rango de una temperatura. Dado una temperatura. Dado una tempera en grados Celsius, determina en qué rango se encuentra dependiendo de:
+/*13.- Crea un script que determine el rango de una temperatura. Dado una temperatura. Dado una tempera en grados Celsius, 
+/ determina en qué rango se encuentra dependiendo de:
         -Si la temperatura es menor que 0, es frío.
         -Si la temperatura está entre 0 y 30 (inclusive), es templado.
         -Si la temperatura es mayor que 30, es caliente
@@ -226,7 +242,9 @@ Utiliza condicionales para realizar este ejercicio*/
         document.write('<br>');
 
 </script>
-/*14.- Crea un split en el que se compruebe el tipo de descuento basándote en el importe total de la compra. Si la compra es mayor que 50 se aplicará un descuento de un 10% sino no se aplicará descuento. Muestra por pantalla el importe con el  descuento si la compra supero los 50 euros, y lo siento no has obtenido descuento si la compra nno supera los 50 euros.
+/*14.- Crea un split en el que se compruebe el tipo de descuento basándote en el importe total de la compra. Si la compra es 
+/ mayor que 50 se aplicará un descuento de un 10% sino no se aplicará descuento. Muestra por pantalla el importe con el  descuento si 
+/ la compra supero los 50 euros, y lo siento no has obtenido descuento si la compra nno supera los 50 euros.
 Utiliza operadores ternarios para realizar este ejercicio.*/
 <script type="text/javascript">
         const COMPRA = 40;
@@ -238,7 +256,8 @@ Utiliza operadores ternarios para realizar este ejercicio.*/
 
 </script>
 
-/*15.- Crea un script en el que determines el estado de una bombilla. Si la bombilla está encendida devolverá 'Bombilla encendida' si está apagada devolverá 'Bombilla apagada'. Utiliza operadores ternarios para realizar el ejercicio.*/
+/*15.- Crea un script en el que determines el estado de una bombilla. Si la bombilla está encendida devolverá 'Bombilla encendida' 
+/ si está apagada devolverá 'Bombilla apagada'. Utiliza operadores ternarios para realizar el ejercicio.*/
 <script type="text/javascript">
 
         function bombilla(estado) {
@@ -350,7 +369,9 @@ La propiedad 3 y la 4 serán dos métodos, la propiedad 3 ingresarDinero lo que 
 
     </script>
 
-/*18.- Crea un objeto cocheDeCarreras con un método para acelerar y uno para frenar. El objeto debe tener dos propiedades, velocidad, acelerar que será un método que añada 10 km a la velocidad del coche y frenar que consultará la velocidad y la pondrá en 0. Ejecuta los métodos en varias ocasiones para comprobar que el coche está acelerando y frenando correctamente.*/
+/*18.- Crea un objeto cocheDeCarreras con un método para acelerar y uno para frenar. El objeto debe tener dos propiedades, velocidad, 
+/ acelerar que será un método que añada 10 km a la velocidad del coche y frenar que consultará la velocidad y la pondrá en 0. Ejecuta los 
+/ métodos en varias ocasiones para comprobar que el coche está acelerando y frenando correctamente.*/
         
 <script type="text/javascript">
         const cocheDeCarreras = {
@@ -372,7 +393,8 @@ La propiedad 3 y la 4 serán dos métodos, la propiedad 3 ingresarDinero lo que 
 
 </script>
 
-/*19.- Crea un objeto llamado dado con un método para lanzar el dado y obtener un número al azar. Para ello necesitarás un método que genere números aleatorios del 1 al 6. Cuidado porque tu dado no puede devolver el 0 como número aleatorio.
+/*19.- Crea un objeto llamado dado con un método para lanzar el dado y obtener un número al azar. Para ello necesitarás 
+/ un método que genere números aleatorios del 1 al 6. Cuidado porque tu dado no puede devolver el 0 como número aleatorio.
 Ejecuta en repetidas ocasiones el método para ver que funciona correctamente.*/
 <script type="text/javascript">
         var dado = {
@@ -406,7 +428,10 @@ Ejecuta en repetidas ocasiones el método para ver que funciona correctamente.*/
 
 </script>
 
-/*21.- Crea un script que calcule la edad de una persona a partir de su fecha de nacimiento y la fecha actual. Para ello necesitarás pedirle al usuario su fecha de nacimiento y desglosarla creando un array (para desglosar una cadena generando un array puedes utilizar el método Split, pasándole el carácter con el que quieres separar la cadena) con el fin de almacenar el año en una variable y restarle al año actual el año de nacimiento. */
+/*21.- Crea un script que calcule la edad de una persona a partir de su fecha de nacimiento y la fecha actual. Para ello 
+/ necesitarás pedirle al usuario su fecha de nacimiento y desglosarla creando un array (para desglosar una cadena generando un array 
+/ puedes utilizar el método Split, pasándole el carácter con el que quieres separar la cadena) con el fin de almacenar el año en una 
+/ variable y restarle al año actual el año de nacimiento. */
 <script type="text/javascript">
 
         let fechaNacimiento = prompt("Por favor, ingresa tu fecha de nacimiento en formato AÑO-	MES-DIA:");
@@ -460,7 +485,8 @@ Es un ejercicio un poco complicado, no te agobies y sigue los pasos que te detal
 
 </script>
 
-/*24.- Crea un array llamado frutas con tres frutas (manzana, pera y uva), después cambia el valor de la pera por plátano, finalmente muestra el array completo por consola.*/
+/*24.- Crea un array llamado frutas con tres frutas (manzana, pera y uva), después cambia el valor de la pera por plátano, 
+/ finalmente muestra el array completo por consola.*/
 <script type="text/javascript">
 
         let frutas = ['manzana', 'pera', 'uva'];
@@ -469,7 +495,8 @@ Es un ejercicio un poco complicado, no te agobies y sigue los pasos que te detal
 
     </script>
 
-/*25.- Crea un array vacío llamado personajes. Luego agrega tres nombres de personajes al array usando el método push(). Finalmente, muestra el array por pantalla.*/
+/*25.- Crea un array vacío llamado personajes. Luego agrega tres nombres de personajes al array usando el método push(). 
+/ Finalmente, muestra el array por pantalla.*/
 <script type="text/javascript">
 
         let personajes = [];
@@ -481,7 +508,8 @@ Es un ejercicio un poco complicado, no te agobies y sigue los pasos que te detal
     
 </script>
 
-/*26.- Crea un array de números con al menos cinco elementos. Luego, utiliza un bucle for para recorrer el array y mostrar cada número multiplicado por 2 en pantalla.*/
+/*26.- Crea un array de números con al menos cinco elementos. Luego, utiliza un bucle for para recorrer el array y mostrar cada número 
+/ multiplicado por 2 en pantalla.*/
 <script type="text/javascript">
 
         var numeros = [3, 7, 12, 5, 8];
@@ -493,7 +521,8 @@ Es un ejercicio un poco complicado, no te agobies y sigue los pasos que te detal
 
 </script>
 
-/*27.- Crea un script que genere una actividad aleatoria de una lista de actividades. Para ello necesitarás un array con la lista de actividades, generar la tarea aleatoria que vas a mostrar de tu lista de tareas y mostrar por pantalla la actividad elegida.*/
+/*27.- Crea un script que genere una actividad aleatoria de una lista de actividades. Para ello necesitarás un array con la lista de 
+/ actividades, generar la tarea aleatoria que vas a mostrar de tu lista de tareas y mostrar por pantalla la actividad elegida.*/
 <script type="text/javascript">
 
 	let actividades = [
